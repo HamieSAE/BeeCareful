@@ -5,12 +5,10 @@ using UnityEngine;
 public class tp_inputManager : MonoBehaviour
 {
 
- 
 
-
-    public Vector3 GetMovementVector()
+    public Vector2 GetMovementVectorNormalized()
     {
-        Vector3 inputVector = new Vector3(0, 0, 0);
+        Vector2 inputVector = new Vector2(0, 0);
 
         if (Input.GetKey(KeyCode.W))
         {
@@ -22,14 +20,14 @@ public class tp_inputManager : MonoBehaviour
             inputVector.y = -1;
         }
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            inputVector.x = -1;
-        }
-
         if (Input.GetKey(KeyCode.D))
         {
             inputVector.x = +1;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            inputVector.x = -1;
         }
 
         inputVector = inputVector.normalized;
