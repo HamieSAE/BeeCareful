@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9067806829131871208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638473180356137228
+  FileSizes:
+  - Name: 
+    Value: 1208
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -9067806829131871208}
+  - {fileID: 6762370030715972001}
+  - {fileID: 2908708135818674177}
+  - {fileID: 7960374273408646068}
+  - {fileID: 5753291249212393464}
+  EditorEvents:
+  - {fileID: 5447836789488649912}
+  - {fileID: 2974227488643928578}
+  - {fileID: 1171487266477482449}
+  - {fileID: 4654302097262869085}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2908708135818674177}
+  StringsBanks:
+  - {fileID: -9067806829131871208}
+  cacheTime: 638473182520705145
+  cacheVersion: 131617
+--- !u!114 &615049436215162216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Flower1/Distance_to_Flower
+  m_EditorClassIdentifier: 
+  Name: Distance_to_Flower
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 189890413
+    data2: 2498398199
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1171487266477482449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Field1
+  m_EditorClassIdentifier: 
+  Path: event:/Field1
+  Guid:
+    Data1: -2015888524
+    Data2: 1135462660
+    Data3: -1422662233
+    Data4: -894723298
+  Banks:
+  - {fileID: 6762370030715972001}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 297708
+--- !u!114 &2908708135818674177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638473180356128250
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2974227488643928578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Flower1
+  m_EditorClassIdentifier: 
+  Path: event:/Flower1
+  Guid:
+    Data1: 463374281
+    Data2: 1111604034
+    Data3: -1809605203
+    Data4: -1228316662
+  Banks:
+  - {fileID: 7960374273408646068}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 615049436215162216}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13512
+--- !u!114 &4654302097262869085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FlowerField
+  m_EditorClassIdentifier: 
+  Path: event:/FlowerField
+  Guid:
+    Data1: 1949439161
+    Data2: 1246067392
+    Data3: -1851767621
+    Data4: -832115163
+  Banks:
+  - {fileID: 5753291249212393464}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49366
+--- !u!114 &5447836789488649912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Attractor
+  m_EditorClassIdentifier: 
+  Path: event:/Attractor
+  Guid:
+    Data1: 365991011
+    Data2: 1141025254
+    Data3: -1757660281
+    Data4: 1078946593
+  Banks:
+  - {fileID: 7960374273408646068}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13582
+--- !u!114 &5753291249212393464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Flower1.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/Flower1.bank
+  Name: Desktop/Flower1
+  StudioPath: bank:/Flower1
+  lastModified: 638473180414970585
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6762370030715972001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/FieldView.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/FieldView.bank
+  Name: Desktop/FieldView
+  StudioPath: bank:/FieldView
+  lastModified: 638473180413224746
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7960374273408646068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/PollensANdNEetar.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/PollensANdNEetar.bank
+  Name: Desktop/PollensANdNEetar
+  StudioPath: bank:/PollensANdNEetar
+  lastModified: 638473182520705145
+  FileSizes: []
+  Exists: 1
