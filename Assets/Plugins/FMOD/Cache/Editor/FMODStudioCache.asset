@@ -48,7 +48,7 @@ MonoBehaviour:
   - {fileID: 2908708135818674177}
   StringsBanks:
   - {fileID: -9067806829131871208}
-  cacheTime: 638473182520705145
+  cacheTime: 638473920980704842
   cacheVersion: 131617
 --- !u!114 &615049436215162216
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   - {fileID: 615049436215162216}
   MinDistance: 1
   MaxDistance: 20
-  Length: 13512
+  Length: 9000
 --- !u!114 &4654302097262869085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +252,6 @@ MonoBehaviour:
   Path: ../../Unity Learn programming/FMOD/Bee_PollenAndNectar/banks/Desktop/PollensANdNEetar.bank
   Name: Desktop/PollensANdNEetar
   StudioPath: bank:/PollensANdNEetar
-  lastModified: 638473182520705145
+  lastModified: 638473920980704842
   FileSizes: []
   Exists: 1
