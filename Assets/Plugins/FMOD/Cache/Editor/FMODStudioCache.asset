@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638540765605818367
+  lastModified: 638540767346200591
   FileSizes: []
   Exists: 1
 --- !u!114 &-9066358916449944051
@@ -37,8 +37,8 @@ MonoBehaviour:
     Data3: 741391286
     Data4: 1839402921
   Banks:
+  - {fileID: 0}
   - {fileID: -2947751440078994511}
-
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/FLOWER.bank
   Name: Desktop/FLOWER
   StudioPath: bank:/FLOWER
-  lastModified: 638540765606701447
+  lastModified: 638540767346145550
   FileSizes: []
   Exists: 1
 --- !u!114 &-1588574530952057479
@@ -118,7 +118,7 @@ MonoBehaviour:
   - {fileID: -9186812017079634583}
   StringsBanks:
   - {fileID: 3542796570556261315}
-  cacheTime: 638540765607448155
+  cacheTime: 638540767346485838
   cacheVersion: 131617
 --- !u!114 &715972470013670820
 MonoBehaviour:
@@ -162,7 +162,7 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638540765605825756
+  lastModified: 638540767346245632
   FileSizes:
   - Name: 
     Value: 1186
@@ -343,6 +343,6 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/PollenFlower1Hamie.bank
   Name: Desktop/PollenFlower1Hamie
   StudioPath: bank:/PollenFlower1Hamie
-  lastModified: 638540765607448155
+  lastModified: 638540767346485838
   FileSizes: []
   Exists: 1
