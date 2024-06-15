@@ -388,10 +388,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../../Bee Sounds Library/FMOD/BeePollination/BeePollination.fspro
-  sourceBankPath: ../../Bee Sounds Library/FMOD/BeePollination/Build
+  sourceBankPath: FMOD Banks
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -413,10 +413,10 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Master
+  - Desktop/Master
   Banks:
-  - FLOWER
-  - PollenFlower1Hamie
+  - Desktop/FLOWER
+  - Desktop/PollenFlower1Hamie
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
