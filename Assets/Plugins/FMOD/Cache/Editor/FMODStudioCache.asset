@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: 741391286
     Data4: 1839402921
   Banks:
-  - {fileID: 4210509016935155082}
+  - {fileID: -8673491162821697961}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3950
---- !u!114 &-4511422049758982598
+--- !u!114 &-8673491162821697961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,15 +39,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Desktop/FLOWER.bank
   m_EditorClassIdentifier: 
-  Path: ../../Bee Sounds Library/FMOD/BeePollination/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638540466298501355
+  Path: FMOD Banks/Desktop/FLOWER.bank
+  Name: Desktop/FLOWER
+  StudioPath: bank:/FLOWER
+  lastModified: 638540767346145550
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5041054728738804243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Banks/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638540767346245632
   FileSizes:
-  - Name: Desktop
-    Value: 1036
+  - Name: 
+    Value: 1186
   Exists: 1
 --- !u!114 &-1588574530952057479
 MonoBehaviour:
@@ -86,10 +104,10 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6537519778507203148}
-  - {fileID: -4511422049758982598}
-  - {fileID: 4210509016935155082}
-  - {fileID: 6033415459481754764}
+  - {fileID: -5041054728738804243}
+  - {fileID: -8673491162821697961}
+  - {fileID: 2554983546947056128}
+  - {fileID: 6666217075095515139}
   EditorEvents:
   - {fileID: 4859704457366683622}
   - {fileID: -9066358916449944051}
@@ -98,10 +116,10 @@ MonoBehaviour:
   - {fileID: 4026104864676255755}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4511422049758982598}
+  - {fileID: 2554983546947056128}
   StringsBanks:
-  - {fileID: 6537519778507203148}
-  cacheTime: 638540466308881770
+  - {fileID: -5041054728738804243}
+  cacheTime: 638540767346485838
   cacheVersion: 131617
 --- !u!114 &715972470013670820
 MonoBehaviour:
@@ -130,6 +148,24 @@ MonoBehaviour:
   - PartB
   - PartC
   Exists: 1
+--- !u!114 &2554983546947056128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Banks/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638540767346200591
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4026104864676255755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +185,7 @@ MonoBehaviour:
     Data3: 2030516392
     Data4: -1168280009
   Banks:
-  - {fileID: 6033415459481754764}
+  - {fileID: 6666217075095515139}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -157,26 +193,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &4210509016935155082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/FLOWER.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Bee Sounds Library/FMOD/BeePollination/Build/Desktop/FLOWER.bank
-  Name: FLOWER
-  StudioPath: bank:/FLOWER
-  lastModified: 638540461027719141
-  FileSizes:
-  - Name: Desktop
-    Value: 1664160
-  Exists: 1
 --- !u!114 &4570300444265656038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +212,7 @@ MonoBehaviour:
     Data3: -757457996
     Data4: -410286699
   Banks:
-  - {fileID: 6033415459481754764}
+  - {fileID: 6666217075095515139}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -223,7 +239,7 @@ MonoBehaviour:
     Data3: 108565893
     Data4: -187936778
   Banks:
-  - {fileID: 4210509016935155082}
+  - {fileID: -8673491162821697961}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -284,26 +300,6 @@ MonoBehaviour:
   - PartB
   - PartC
   Exists: 1
---- !u!114 &6033415459481754764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/PollenFlower1Hamie.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Bee Sounds Library/FMOD/BeePollination/Build/Desktop/PollenFlower1Hamie.bank
-  Name: PollenFlower1Hamie
-  StudioPath: bank:/PollenFlower1Hamie
-  lastModified: 638540466308881770
-  FileSizes:
-  - Name: Desktop
-    Value: 2860896
-  Exists: 1
 --- !u!114 &6313615713183374438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,7 +319,7 @@ MonoBehaviour:
     Data3: 257597090
     Data4: -558957470
   Banks:
-  - {fileID: 6033415459481754764}
+  - {fileID: 6666217075095515139}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -331,7 +327,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6537519778507203148
+--- !u!114 &6666217075095515139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,13 +337,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Desktop/PollenFlower1Hamie.bank
   m_EditorClassIdentifier: 
-  Path: ../../Bee Sounds Library/FMOD/BeePollination/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638540466298512234
-  FileSizes:
-  - Name: Desktop
-    Value: 1186
+  Path: FMOD Banks/Desktop/PollenFlower1Hamie.bank
+  Name: Desktop/PollenFlower1Hamie
+  StudioPath: bank:/PollenFlower1Hamie
+  lastModified: 638540767346485838
+  FileSizes: []
   Exists: 1
