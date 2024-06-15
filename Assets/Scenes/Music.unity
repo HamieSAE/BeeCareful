@@ -165,7 +165,7 @@ MonoBehaviour:
     Path: event:/Hamie_Pollen1
   Event: 
   PlayEvent: 13
-  StopEvent: 0
+  StopEvent: 14
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -273,9 +273,9 @@ GameObject:
   - component: {fileID: 981528548}
   - component: {fileID: 981528547}
   - component: {fileID: 981528546}
+  - component: {fileID: 981528553}
   - component: {fileID: 981528551}
   - component: {fileID: 981528552}
-  - component: {fileID: 981528553}
   m_Layer: 0
   m_Name: FLOWER
   m_TagString: Untagged
@@ -304,8 +304,8 @@ MonoBehaviour:
       Data4: 1839402921
     Path: event:/Dandelion Hamie
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  PlayEvent: 13
+  StopEvent: 14
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
     Params:
     - Name: Counter
       Value: 4
-  TriggerEvent: 13
+  TriggerEvent: 15
 --- !u!114 &981528552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
     Params:
     - Name: Counter
       Value: 7
-  TriggerEvent: 15
+  TriggerEvent: 16
 --- !u!114 &981528553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
     Params:
     - Name: Counter
       Value: 0
-  TriggerEvent: 14
+  TriggerEvent: 13
 --- !u!1 &1241676089
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +499,7 @@ MonoBehaviour:
     Path: event:/Hamie_Pollen3
   Event: 
   PlayEvent: 13
-  StopEvent: 0
+  StopEvent: 14
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
     Path: event:/Hamie_Pollen2
   Event: 
   PlayEvent: 13
-  StopEvent: 0
+  StopEvent: 14
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
