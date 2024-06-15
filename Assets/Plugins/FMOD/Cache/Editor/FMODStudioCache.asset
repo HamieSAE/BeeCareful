@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9186812017079634583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Banks/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638540765605818367
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-9066358916449944051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,7 +37,8 @@ MonoBehaviour:
     Data3: 741391286
     Data4: 1839402921
   Banks:
-  - {fileID: -8673491162821697961}
+  - {fileID: -2947751440078994511}
+
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -29,7 +48,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3950
---- !u!114 &-8673491162821697961
+--- !u!114 &-2947751440078994511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,28 +63,8 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/FLOWER.bank
   Name: Desktop/FLOWER
   StudioPath: bank:/FLOWER
-  lastModified: 638540767346145550
+  lastModified: 638540765606701447
   FileSizes: []
-  Exists: 1
---- !u!114 &-5041054728738804243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD Banks/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638540767346245632
-  FileSizes:
-  - Name: 
-    Value: 1186
   Exists: 1
 --- !u!114 &-1588574530952057479
 MonoBehaviour:
@@ -104,10 +103,10 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5041054728738804243}
-  - {fileID: -8673491162821697961}
-  - {fileID: 2554983546947056128}
-  - {fileID: 6666217075095515139}
+  - {fileID: 3542796570556261315}
+  - {fileID: -2947751440078994511}
+  - {fileID: -9186812017079634583}
+  - {fileID: 6962598797081605904}
   EditorEvents:
   - {fileID: 4859704457366683622}
   - {fileID: -9066358916449944051}
@@ -116,10 +115,10 @@ MonoBehaviour:
   - {fileID: 4026104864676255755}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2554983546947056128}
+  - {fileID: -9186812017079634583}
   StringsBanks:
-  - {fileID: -5041054728738804243}
-  cacheTime: 638540767346485838
+  - {fileID: 3542796570556261315}
+  cacheTime: 638540765607448155
   cacheVersion: 131617
 --- !u!114 &715972470013670820
 MonoBehaviour:
@@ -148,7 +147,7 @@ MonoBehaviour:
   - PartB
   - PartC
   Exists: 1
---- !u!114 &2554983546947056128
+--- !u!114 &3542796570556261315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,13 +157,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.bank
+  m_Name: bank:/Desktop/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: FMOD Banks/Desktop/Master.bank
-  Name: Desktop/Master
-  StudioPath: bank:/Master
-  lastModified: 638540767346200591
-  FileSizes: []
+  Path: FMOD Banks/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638540765605825756
+  FileSizes:
+  - Name: 
+    Value: 1186
   Exists: 1
 --- !u!114 &4026104864676255755
 MonoBehaviour:
@@ -185,7 +186,7 @@ MonoBehaviour:
     Data3: 2030516392
     Data4: -1168280009
   Banks:
-  - {fileID: 6666217075095515139}
+  - {fileID: 6962598797081605904}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -212,7 +213,7 @@ MonoBehaviour:
     Data3: -757457996
     Data4: -410286699
   Banks:
-  - {fileID: 6666217075095515139}
+  - {fileID: 6962598797081605904}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -239,7 +240,7 @@ MonoBehaviour:
     Data3: 108565893
     Data4: -187936778
   Banks:
-  - {fileID: -8673491162821697961}
+  - {fileID: -2947751440078994511}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -319,7 +320,7 @@ MonoBehaviour:
     Data3: 257597090
     Data4: -558957470
   Banks:
-  - {fileID: 6666217075095515139}
+  - {fileID: 6962598797081605904}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -327,7 +328,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6666217075095515139
+--- !u!114 &6962598797081605904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,6 +343,6 @@ MonoBehaviour:
   Path: FMOD Banks/Desktop/PollenFlower1Hamie.bank
   Name: Desktop/PollenFlower1Hamie
   StudioPath: bank:/PollenFlower1Hamie
-  lastModified: 638540767346485838
+  lastModified: 638540765607448155
   FileSizes: []
   Exists: 1
